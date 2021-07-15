@@ -1,6 +1,6 @@
 pluginManagement {
 
-    val toolsVersion = "0.10.0"
+    val toolsVersion = "0.10.1"
 
     repositories {
         maven("https://repo.kotlin.link")

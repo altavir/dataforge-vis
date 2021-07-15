@@ -17,8 +17,7 @@ kotlin{
 
 dependencies{
     api(project(":ui:react"))
-    //TODO replace by kotlin-wrappers
-    api("ru.mipt.npm:ring-ui:0.1.0")
+    api("org.jetbrains.kotlin-wrappers:kotlin-ring-ui")
 
     implementation(npm("@jetbrains/icons", "3.14.1"))
     implementation(npm("@jetbrains/ring-ui", "4.0.7"))
@@ -26,5 +25,4 @@ dependencies{
     implementation(npm("file-saver", "2.0.2"))
     compileOnly(npm("url-loader","4.1.1"))
     compileOnly(npm("postcss-loader","5.2.0"))
-    compileOnly(npm("source-map-loader","2.0.1"))
 }

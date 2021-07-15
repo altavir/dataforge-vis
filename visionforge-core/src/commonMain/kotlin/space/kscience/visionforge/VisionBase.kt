@@ -29,7 +29,7 @@ internal data class PropertyListener(
 @Serializable
 @SerialName("vision")
 public open class VisionBase(
-    override @Transient var parent: VisionGroup? = null,
+    @Transient override var parent: VisionGroup? = null,
     protected var properties: Config? = null
 ) : Vision {
 
