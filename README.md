@@ -118,12 +118,12 @@ The `demo` module contains several example projects (demonstrations) of using th
 They are briefly described in this section, for more details please consult the corresponding per-project
 README file.
 
-### Simple Example - Spatial Showcase
+### Simple Example - Solid Showcase
 
 Contains a simple demonstration with a grid including a few shapes that you can rotate, move camera, and so on.
 Some shapes will also periodically change their color and visibility.
 
-[More details](demo/spatial-showcase/README.md)
+[More details](demo/solid-showcase/README.md)
 
 **Example view:**
 
