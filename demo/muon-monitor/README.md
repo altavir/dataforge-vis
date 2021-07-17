@@ -26,9 +26,8 @@ with it.
 ##### Building project
 
 To run full-stack Muon Monitor Visualization application (both JVM server and Web browser front-end), 
-run `demo/muon-monitor/application/run` task.
+run `demo/muon-monitor/Tasks/application/run` task.
 
 ##### Example view:
 
 ![](../../docs/images/muon-monitor.png)
-
